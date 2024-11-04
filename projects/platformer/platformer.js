@@ -43,7 +43,7 @@ createPlatform(150, 700, 200, 20);
 
 createPlatform(450, 610, 200, 20);
 
-createPlatform(97, 500, 130, 20);
+createPlatform(97, 500, 130, 25);
 
 createPlatform(355, 370, 140, 20);
 
@@ -69,7 +69,9 @@ createCollectable('database', 400, 150, 20, 0.5);
     // Your wall choices are: 'top' 'left' 'right' and 'bottom'
     // example usage: createCannon(side, position, delay, width, height)
 
-createCannon("top", 500, 2000, 50,700);
+createCannon("top", 400, 2000);
+createCannon("right", 577, 2000)
+createCannon("top", 830, 1500)
     
     /////////////////////////////////////////////////
     //////////ONLY CHANGE ABOVE THIS POINT///////////
